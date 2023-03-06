@@ -4,7 +4,7 @@ console.log('inside the config');
 export default defineConfig({
   test: {
     deps: {
-      interopDefault: true
+      interopDefault: false
     }
   },
 })
