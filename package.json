@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "node-esm": "node useMoment.mjs",
+    "vitest": "vitest run vitest.test.ts",
+    "jest": "jest jest.test.ts",
+    "jest-globals": "jest jest.global.test.ts",
+    "vitest-globals": "jest jest.global.test.ts"
   },
   "author": "",
   "license": "ISC",
