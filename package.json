@@ -6,6 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "node-esm": "node useMoment.mjs",
+    "ts-node": "ts-node useMomentTs.ts",
     "vitest": "vitest run vitest.test.ts",
     "jest": "jest jest.test.ts",
     "jest-globals": "jest jest.global.test.ts",
